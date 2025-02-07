@@ -28,6 +28,7 @@ const PokemonDetailsScreen = ({navigation, route}: Props) => {
   const [searching, setsearching] = useState(false);
   const [bottomRefreshing, setBottomRefreshing] = useState<boolean>(false);
   // const checkoutState = useAppSelector(state => state.checkout);
+  console.log(searching, 'HERE');
 
   const [searchText, setSearchText] = useState<string>('');
 
